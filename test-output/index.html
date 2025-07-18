@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2403775\Downloads\Urban_ladder 1\Urban_ladder\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Input the details and retreive information&quot;, &quot;Go to Track Order and entering details for tracking&quot;)">runScenario("Input the details and retreive information", "Go to Track Order and entering details for tracking")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify store states are displayed and written to Excel&quot;, &quot;Store States Display&quot;)">runScenario("Verify store states are displayed and written to Excel", "Store States Display")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate login using credentials from external Excel&quot;, &quot;Login Functionality Validation&quot;)">runScenario("Validate login using credentials from external Excel", "Login Functionality Validation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Enter keyword and capture auto-suggestions into Excel&quot;, &quot;Auto-suggestion validation on Urban Ladder...)">runScenario("Enter keyword and capture auto-suggestions into Excel", "Auto-suggestion validation on Urban Ladder...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to Help section and write FAQs to Excel&quot;, &quot;Extract Help Page FAQs on Urban Ladder&quot;)">runScenario("Navigate to Help section and write FAQs to Excel", "Extract Help Page FAQs on Urban Ladder")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User filters bookshelves under ₹15,000 and saves the top products to Excel&quot;, &quot;Filter and extract Bo...)">runScenario("User filters bookshelves under ₹15,000 and saves the top products to Excel", "Filter and extract Bo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;All category items inside Sofas and Recliners&quot;, &quot;Navigate to Sofas and Recliners and collect all ca...)">runScenario("All category items inside Sofas and Recliners", "Navigate to Sofas and Recliners and collect all ca...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search and verify item in cart&quot;, &quot;Add item to cart and verify item name and retrieve price&quot;)">runScenario("Search and verify item in cart", "Add item to cart and verify item name and retrieve price")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence and functionality of social media links&quot;, &quot;Social media link verification&quot;)">runScenario("Verify presence and functionality of social media links", "Social media link verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.urban.testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;All categories under the category option&quot;, &quot;Search being at home and collect all the category&quot;)">runScenario("All categories under the category option", "Search being at home and collect all the category")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.urban.testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Input the details and retreive information&quot;, &quot;Go to Track Order and entering details for tracking&quot;)">
+                  </a> <!-- runScenario("Input the details and retreive information", "Go to Track Order and entering details for tracking") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Input the details and retreive information","Go to Track Order and entering details for tracking")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify store states are displayed and written to Excel&quot;, &quot;Store States Display&quot;)">
+                  </a> <!-- runScenario("Verify store states are displayed and written to Excel", "Store States Display") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify store states are displayed and written to Excel","Store States Display")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate login using credentials from external Excel&quot;, &quot;Login Functionality Validation&quot;)">
+                  </a> <!-- runScenario("Validate login using credentials from external Excel", "Login Functionality Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate login using credentials from external Excel","Login Functionality Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Enter keyword and capture auto-suggestions into Excel&quot;, &quot;Auto-suggestion validation on Urban Ladder...)">
+                  </a> <!-- runScenario("Enter keyword and capture auto-suggestions into Excel", "Auto-suggestion validation on Urban Ladder...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Enter keyword and capture auto-suggestions into Excel","Auto-suggestion validation on Urban Ladder")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Navigate to Help section and write FAQs to Excel&quot;, &quot;Extract Help Page FAQs on Urban Ladder&quot;)">
+                  </a> <!-- runScenario("Navigate to Help section and write FAQs to Excel", "Extract Help Page FAQs on Urban Ladder") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Navigate to Help section and write FAQs to Excel","Extract Help Page FAQs on Urban Ladder")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User filters bookshelves under ₹15,000 and saves the top products to Excel&quot;, &quot;Filter and extract Bo...)">
+                  </a> <!-- runScenario("User filters bookshelves under ₹15,000 and saves the top products to Excel", "Filter and extract Bo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User filters bookshelves under ₹15,000 and saves the top products to Excel","Filter and extract Bookshelves data from Urban Ladder")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;All category items inside Sofas and Recliners&quot;, &quot;Navigate to Sofas and Recliners and collect all ca...)">
+                  </a> <!-- runScenario("All category items inside Sofas and Recliners", "Navigate to Sofas and Recliners and collect all ca...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("All category items inside Sofas and Recliners","Navigate to Sofas and Recliners and collect all category")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search and verify item in cart&quot;, &quot;Add item to cart and verify item name and retrieve price&quot;)">
+                  </a> <!-- runScenario("Search and verify item in cart", "Add item to cart and verify item name and retrieve price") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search and verify item in cart","Add item to cart and verify item name and retrieve price")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence and functionality of social media links&quot;, &quot;Social media link verification&quot;)">
+                  </a> <!-- runScenario("Verify presence and functionality of social media links", "Social media link verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence and functionality of social media links","Social media link verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;All categories under the category option&quot;, &quot;Search being at home and collect all the category&quot;)">
+                  </a> <!-- runScenario("All categories under the category option", "Search being at home and collect all the category") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("All categories under the category option","Search being at home and collect all the category")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2403775\Downloads\Urban_ladder 1\Urban_ladder\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;retry.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.urban.testrunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(0, 3, 59521);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(1, 3, 56849);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(2, 3, 45965);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(3, 3, 42725);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(4, 3, 31238);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(5, 3, 30899);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(6, 3, 29340);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(7, 3, 26328);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(8, 3, 22660);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.urban.testrunner.TestRunner')
+data.setCell(9, 3, 19900);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.urban.testrunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6dafe488)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User filters bookshelves under ₹15,000 and saves the top products to Excel", "Filter and extract Bo...)</span>
+                <span class="method-start">1994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search and verify item in cart", "Add item to cart and verify item name and retrieve price")</span>
+                <span class="method-start">32900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify store states are displayed and written to Excel", "Store States Display")</span>
+                <span class="method-start">89752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate login using credentials from external Excel", "Login Functionality Validation")</span>
+                <span class="method-start">112414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence and functionality of social media links", "Social media link verification")</span>
+                <span class="method-start">143655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Enter keyword and capture auto-suggestions into Excel", "Auto-suggestion validation on Urban Ladder...)</span>
+                <span class="method-start">203180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Navigate to Help section and write FAQs to Excel", "Extract Help Page FAQs on Urban Ladder")</span>
+                <span class="method-start">232523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("All categories under the category option", "Search being at home and collect all the category")</span>
+                <span class="method-start">275251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("All category items inside Sofas and Recliners", "Navigate to Sofas and Recliners and collect all ca...)</span>
+                <span class="method-start">301581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Input the details and retreive information", "Go to Track Order and entering details for tracking")</span>
+                <span class="method-start">321484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">367455 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">367551 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

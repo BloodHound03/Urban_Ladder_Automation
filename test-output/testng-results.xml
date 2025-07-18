@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T13:55:33 IST" name="Suite" finished-at="2025-07-17T14:01:40 IST" duration-ms="367553">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-17T13:55:33 IST" name="Test" finished-at="2025-07-17T14:01:40 IST" duration-ms="367553">
+      <class name="com.urban.testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:55:33 IST" name="setUpClass" finished-at="2025-07-17T13:55:35 IST" duration-ms="1967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dafe488]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:55:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T13:56:06 IST" duration-ms="30899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User filters bookshelves under ₹15,000 and saves the top products to Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Filter and extract Bookshelves data from Urban Ladder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:56:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T13:57:03 IST" duration-ms="56849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search and verify item in cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add item to cart and verify item name and retrieve price"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:57:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T13:57:25 IST" duration-ms="22660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify store states are displayed and written to Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Store States Display"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:57:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T13:57:57 IST" duration-ms="31238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login using credentials from external Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:57:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T13:58:56 IST" duration-ms="59521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence and functionality of social media links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Social media link verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:58:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T13:59:25 IST" duration-ms="29340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter keyword and capture auto-suggestions into Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Auto-suggestion validation on Urban Ladder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T13:59:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T14:00:08 IST" duration-ms="42725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Help section and write FAQs to Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Extract Help Page FAQs on Urban Ladder"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T14:00:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T14:00:35 IST" duration-ms="26328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All categories under the category option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search being at home and collect all the category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T14:00:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T14:00:54 IST" duration-ms="19900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All category items inside Sofas and Recliners"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigate to Sofas and Recliners and collect all category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T14:00:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T14:01:40 IST" duration-ms="45965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Input the details and retreive information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Go to Track Order and entering details for tracking"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T14:01:40 IST" name="tearDownClass" finished-at="2025-07-17T14:01:40 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.urban.testrunner.TestRunner@4647881c]" started-at="2025-07-17T14:01:40 IST" name="afterSuite" finished-at="2025-07-17T14:01:41 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.urban.testrunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
